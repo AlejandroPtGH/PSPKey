@@ -39,5 +39,4 @@ PSPKey es una aplicación desarrollada en Java para la gestión de servicios med
 - `lib/`: Librerías externas (JDBC Connector).
 
 ## Contacto
-Desarrollado por [Tu Nombre/Usuario].
-Si tienes alguna duda o sugerencia, no dudes en abrir un *issue* en este repositorio.
+Desarrollado por José Alejandro Pampa Taguada.
