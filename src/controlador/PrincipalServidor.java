@@ -9,6 +9,7 @@ public class PrincipalServidor {
 
 	public static void main(String[] args) throws IOException {
 
+		//Iniciamos aqui el programa
 		Consola c = new Consola();
 		if (c.inicio()) {
 			ServidorUDP servidor = new ServidorUDP();

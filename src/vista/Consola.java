@@ -112,21 +112,21 @@ public class Consola {
 
 	}
 
-//	public boolean insertaDatos(String a, String b) {
-//		try {
-//			Connection conexion = DriverManager.getConnection(URL, USER, PASS);
-//			PreparedStatement consulta = conexion.prepareStatement("INSERT INTO usuarios (user, pass) VALUES (?, ?)");
-//			consulta.setString(1, a);
-//			consulta.setString(2, b);
-//
-//			consulta.executeUpdate();
-//			conexion.close();
-//			return true;
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//			return false;
-//		}
-//	}
+	public boolean insertaDatos(String a, String b) {
+		try {
+			Connection conexion = DriverManager.getConnection(URL, USER, PASS);
+			PreparedStatement consulta = conexion.prepareStatement("INSERT INTO usuarios (user, pass) VALUES (?, ?)");
+			consulta.setString(1, a);
+			consulta.setString(2, b);
+
+			consulta.executeUpdate();
+			conexion.close();
+			return true;
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
 
 	public boolean existeUsuario(String usuarioHash) {
 
